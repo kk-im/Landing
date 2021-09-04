@@ -1,0 +1,29 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* CSS files */
+@import url("components/cards.css");
+@import url("components/fonts.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  background-color: #eae2b7;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
